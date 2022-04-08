@@ -1,5 +1,4 @@
 # BMD302Project
-pet clinic
 Pet clinics are regarded as one of the most essential
 clinics owing to the significance of animal health since
 many people own pets and expose their children to
