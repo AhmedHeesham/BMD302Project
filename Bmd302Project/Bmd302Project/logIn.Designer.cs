@@ -148,6 +148,7 @@ namespace Bmd302Project
             this.bunifuThinButton24.Size = new System.Drawing.Size(169, 50);
             this.bunifuThinButton24.TabIndex = 17;
             this.bunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton24.Click += new System.EventHandler(this.bunifuThinButton24_Click);
             // 
             // logIn
             // 

@@ -36,5 +36,17 @@ namespace Bmd302Project
         {
 
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Dashboard obj = new Dashboard();
+            obj.Show();
+            this.Hide();
+        }
     }
 }

@@ -31,6 +31,11 @@ namespace Bmd302Project
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -51,11 +56,6 @@ namespace Bmd302Project
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -83,6 +83,46 @@ namespace Bmd302Project
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1268, 592);
             this.panel1.TabIndex = 3;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.LightCoral;
+            this.panel4.Location = new System.Drawing.Point(798, 142);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(267, 181);
+            this.panel4.TabIndex = 16;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Salmon;
+            this.panel3.Location = new System.Drawing.Point(646, 351);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(267, 181);
+            this.panel3.TabIndex = 15;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Firebrick;
+            this.panel2.Location = new System.Drawing.Point(444, 142);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(267, 181);
+            this.panel2.TabIndex = 12;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Brown;
+            this.panel7.Location = new System.Drawing.Point(58, 142);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(267, 181);
+            this.panel7.TabIndex = 14;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Tomato;
+            this.panel5.Location = new System.Drawing.Point(210, 351);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(267, 181);
+            this.panel5.TabIndex = 11;
             // 
             // label10
             // 
@@ -146,6 +186,7 @@ namespace Bmd302Project
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 53;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // label3
             // 
@@ -167,6 +208,7 @@ namespace Bmd302Project
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 55;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label4
             // 
@@ -188,6 +230,7 @@ namespace Bmd302Project
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 61;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox4
             // 
@@ -199,6 +242,7 @@ namespace Bmd302Project
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 54;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox1
             // 
@@ -210,6 +254,7 @@ namespace Bmd302Project
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 51;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label5
             // 
@@ -251,6 +296,7 @@ namespace Bmd302Project
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 56;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox6
             // 
@@ -283,46 +329,6 @@ namespace Bmd302Project
             this.label1.Size = new System.Drawing.Size(90, 21);
             this.label1.TabIndex = 52;
             this.label1.Text = "Dashboard";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Tomato;
-            this.panel5.Location = new System.Drawing.Point(210, 351);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(267, 181);
-            this.panel5.TabIndex = 11;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Brown;
-            this.panel7.Location = new System.Drawing.Point(58, 142);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(267, 181);
-            this.panel7.TabIndex = 14;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Firebrick;
-            this.panel2.Location = new System.Drawing.Point(444, 142);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(267, 181);
-            this.panel2.TabIndex = 12;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Salmon;
-            this.panel3.Location = new System.Drawing.Point(646, 351);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(267, 181);
-            this.panel3.TabIndex = 15;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.LightCoral;
-            this.panel4.Location = new System.Drawing.Point(798, 142);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(267, 181);
-            this.panel4.TabIndex = 16;
             // 
             // Dashboard
             // 
